@@ -8,7 +8,7 @@ def main():
 
 @app.route("/how are you")
 def hello() :
-    return "I am good without docker"
+    return "I am good without docker with auto trigger"
 
 if __name__ == "__main__" :
     app.run(host="0.0.0.0", port=8080)
